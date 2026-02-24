@@ -1,19 +1,16 @@
 @import "tailwindcss";
 
-:root {
+@theme {
   --color-primary: #f59e0b;
-  /* amber-500 */
   --color-secondary: #dc2626;
-  /* red-600 */
   --color-accent: #f59e0b;
-
   --font-display: "Inter", system-ui, sans-serif;
+}
 
+:root {
   color-scheme: dark;
   background-color: #09090b;
-  /* zinc-950 */
   color: #f4f4f5;
-  /* zinc-100 */
 }
 
 body {

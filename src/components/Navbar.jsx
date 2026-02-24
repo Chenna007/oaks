@@ -85,7 +85,7 @@ const Navbar = () => {
                     <a
                         href="#reserve"
                         onClick={(e) => scrollToSection(e, '#reserve')}
-                        className="bg-primary hover:bg-white text-black font-black uppercase text-[10px] tracking-widest px-6 py-2.5 transition-all"
+                        className="bg-[#f59e0b] hover:bg-white text-black font-black uppercase text-[10px] tracking-widest px-6 py-2.5 transition-all shadow-[0_0_20px_rgba(245,158,11,0.3)]"
                     >
                         Reserve Table
                     </a>
@@ -93,7 +93,7 @@ const Navbar = () => {
 
                 {/* Mobile Toggle */}
                 <button
-                    className="lg:hidden text-white"
+                    className="lg:hidden text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]"
                     onClick={() => setIsOpen(!isOpen)}
                 >
                     {isOpen ? <X className="w-8 h-8" /> : <Menu className="w-8 h-8" />}
@@ -115,23 +115,23 @@ const Navbar = () => {
                                     key={link.name}
                                     href={link.href}
                                     onClick={(e) => scrollToSection(e, link.href)}
-                                    className="text-white font-black text-xl tracking-tighter uppercase italic"
+                                    className="text-white font-black text-xl tracking-tighter uppercase italic drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]"
                                 >
                                     {link.name}
                                 </a>
                             ))}
                             <div className="flex gap-6 mt-4 pt-6 border-t border-white/5">
                                 <a href="https://www.instagram.com/oaklivebar_official/?hl=en" target="_blank" rel="noopener noreferrer">
-                                    <Instagram className="w-6 h-6 text-primary" />
+                                    <Instagram className="w-6 h-6 text-[#f59e0b]" />
                                 </a>
                                 <a href={facebookUrl} target="_blank" rel="noopener noreferrer">
-                                    <Facebook className="w-6 h-6 text-primary" />
+                                    <Facebook className="w-6 h-6 text-[#f59e0b]" />
                                 </a>
                             </div>
                             <a
                                 href="#reserve"
                                 onClick={(e) => scrollToSection(e, '#reserve')}
-                                className="bg-primary text-black font-black uppercase text-center py-4 tracking-widest text-sm mt-4 italic"
+                                className="bg-[#f59e0b] text-black font-black uppercase text-center py-4 tracking-widest text-sm mt-4 italic shadow-lg shadow-orange-500/20"
                             >
                                 Reserve Table
                             </a>
