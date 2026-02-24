@@ -116,7 +116,7 @@ const ReservationForm = () => {
                             <div className="space-y-4 pt-4">
                                 <button
                                     type="submit"
-                                    className="w-full py-6 bg-primary text-black font-black uppercase italic tracking-[0.2em] rounded-2xl hover:bg-white transition-all shadow-lg shadow-primary/10 flex items-center justify-center gap-3"
+                                    className="w-full py-6 bg-[#f59e0b] text-black font-black uppercase italic tracking-[0.2em] rounded-2xl hover:bg-white transition-all shadow-lg shadow-primary/10 flex items-center justify-center gap-3"
                                 >
                                     <Send className="w-5 h-5" />
                                     Request Booking

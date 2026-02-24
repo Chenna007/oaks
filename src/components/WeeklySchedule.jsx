@@ -67,14 +67,14 @@ const WeeklySchedule = () => {
                             />
 
                             {/* Overlay */}
-                            <div className="absolute inset-0 bg-black/50 group-hover:bg-black/20 transition-all duration-500"></div>
+                            <div className="absolute inset-0 bg-black/60 group-hover:bg-black/30 transition-all duration-500"></div>
 
                             {/* Content */}
                             <div className="absolute inset-0 p-6 flex flex-col justify-end">
-                                <span className="text-primary font-black uppercase text-[10px] tracking-[0.2em] mb-2 opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-500">
+                                <span className="text-primary font-black uppercase text-[10px] tracking-[0.2em] mb-2 opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-500 drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
                                     {item.day}
                                 </span>
-                                <h3 className="text-white text-2xl font-black uppercase tracking-tighter transform group-hover:-translate-y-1 transition-transform duration-500">
+                                <h3 className="text-white text-2xl font-black uppercase tracking-tighter transform group-hover:-translate-y-1 transition-transform duration-500 drop-shadow-[0_4px_8px_rgba(0,0,0,0.9)]">
                                     {item.event}
                                 </h3>
                                 <div className="w-0 group-hover:w-full h-0.5 bg-primary mt-2 transition-all duration-500"></div>

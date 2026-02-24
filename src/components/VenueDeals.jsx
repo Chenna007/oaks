@@ -48,11 +48,11 @@ const VenueDeals = () => {
                                 alt={deal.title}
                                 className="absolute inset-0 w-full h-full object-cover transition-all duration-700 scale-105 group-hover:scale-100"
                             />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-80" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-90" />
 
                             <div className="absolute inset-0 p-10 flex flex-col justify-between border border-white/5 hover:border-primary/30 rounded-[2rem] transition-colors">
                                 <div className="flex justify-between items-start">
-                                    <div className="bg-primary text-black font-black px-4 py-1 uppercase text-[10px] tracking-widest">
+                                    <div className="bg-[#f59e0b] text-black font-black px-4 py-1 uppercase text-[10px] tracking-widest">
                                         {deal.accent}
                                     </div>
                                     <div className="w-12 h-12 rounded-full border border-white/20 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity">
@@ -61,11 +61,11 @@ const VenueDeals = () => {
                                 </div>
 
                                 <div className="space-y-4">
-                                    <h3 className="text-4xl font-black text-white uppercase tracking-tight leading-none group-hover:text-primary transition-colors">
+                                    <h3 className="text-4xl font-black text-white uppercase tracking-tight leading-none group-hover:text-primary transition-colors drop-shadow-[0_4px_8px_rgba(0,0,0,0.9)]">
                                         {deal.title}
                                     </h3>
                                     <div className="w-12 h-1 bg-primary group-hover:w-full transition-all duration-500"></div>
-                                    <p className="text-zinc-300 font-bold uppercase text-[11px] tracking-[0.2em]">
+                                    <p className="text-zinc-300 font-bold uppercase text-[11px] tracking-[0.2em] drop-shadow-[0_2px_4px_rgba(0,0,0,0.8)]">
                                         {deal.time}
                                     </p>
                                 </div>
