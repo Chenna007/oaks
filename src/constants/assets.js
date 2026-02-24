@@ -2,7 +2,7 @@ import sundayImg from './sunday.jpeg';
 
 export const ASSETS = {
     videos: {
-        hero: "/hero-bg.mp4", // Local video file in public folder
+        hero: "hero-bg.mp4", // Local video file in public folder
     },
     images: {
         heroOverlay: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?q=80&w=2070&auto=format&fit=crop", // Rock concert

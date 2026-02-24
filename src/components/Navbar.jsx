@@ -52,7 +52,7 @@ const Navbar = () => {
                 <a href="#home" onClick={(e) => scrollToSection(e, '#home')} className="flex items-center gap-3 group">
                     <div className="w-12 h-12 md:w-16 md:h-16 relative">
                         <img
-                            src="/logo.png"
+                            src={`${import.meta.env.BASE_URL}logo.png`}
                             alt="Oak Live Bar Logo"
                             className="w-full h-full object-contain filter drop-shadow-[0_0_8px_rgba(255,255,255,0.2)] group-hover:scale-105 transition-transform duration-300"
                         />

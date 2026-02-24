@@ -15,7 +15,7 @@ const Hero = () => {
                     poster={ASSETS.images.heroOverlay}
                     className="w-full h-full object-cover"
                 >
-                    <source src={ASSETS.videos.hero} type="video/mp4" />
+                    <source src={`${import.meta.env.BASE_URL}${ASSETS.videos.hero}`} type="video/mp4" />
                 </video>
                 {/* Aggressive Dark Overlay for Mobile Readability */}
                 <div className="absolute inset-0 bg-black/70 md:bg-black/50 transition-colors" />
