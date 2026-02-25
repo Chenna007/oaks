@@ -38,15 +38,7 @@ const Footer = () => {
                 <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6 text-zinc-500 font-bold text-xs tracking-widest uppercase">
                     <p>2026 © Oak Live Group.</p>
                     <p>
-                        Created by{" "}
-<a 
-  href="https://ckr-studios.vercel.app/" 
-  target="_blank" 
-  rel="noopener noreferrer"
-  className="text-white border-b border-zinc-700 hover:border-white transition"
->
-  ckrstudios
-</a>
+                      Created by <span className="text-white border-b border-zinc-700">ckrstudios</span>
                     </p>
                 </div>
             </div>
